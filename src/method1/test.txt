@@ -1,0 +1,10 @@
+double d = 1.092;
+
+void calculate(){
+    int j = 0;
+    for(int i=0;i<100;i++){
+        j += i;
+    }
+    return j;
+}
+
