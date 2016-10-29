@@ -1,0 +1,27 @@
+
+/* author: raychen
+   date: 2016-10-28
+   description: test */
+
+// definition
+double d1 = 10.24;
+double d2 = 0.157;
+int i1 = 0;
+int i2 = 123;
+
+// calculation
+double calculation(){
+    while (i1 > i2){
+        i1++;
+        i2--;
+    }
+    double ans = d1 + d2;
+    ans += i2;
+    ans -= i1;
+    return ans;
+}
+
+// main
+int main(){
+    double ans = calculation();
+}
