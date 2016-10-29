@@ -8,3 +8,7 @@ void calculate(){
     return j;
 }
 
+int main(){
+    calculate();
+    return 0;
+}
